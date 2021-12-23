@@ -1,5 +1,5 @@
 import fs from "fs";
-import { getConfig } from "../libs/getConfig";
+import { getConfig } from "./getConfig";
 import path from "path";
 
 export const getTemplate = (fileName: string) => {
